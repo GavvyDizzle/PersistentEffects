@@ -1,0 +1,14 @@
+name: PersistentEffects
+version: '${project.version}'
+main: com.github.gavvydizzle.persistenteffects.PersistentEffects
+api-version: 1.19
+authors: [ GavvyDizzle ]
+description: Keep potion effects on death
+
+commands:
+  persistenteffects:
+    aliases: [peff]
+    description: PersistentEffects admin commands
+    permission: persistenteffects.admin
+    permission-message: Insufficient permission
+
