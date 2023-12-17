@@ -57,7 +57,6 @@ public class DeathHandler implements Listener {
 
                 for (PotionEffect effect : playerEffects.remove(player.getUniqueId())) {
                     player.addPotionEffect(effect);
-                    System.out.println(effect);
                 }
             }, 1);
         }
